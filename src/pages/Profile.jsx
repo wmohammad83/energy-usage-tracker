@@ -1,11 +1,11 @@
 import React from "react";
 
-function Input() {
+function Profile() {
   return (
     <div>
-      <h1>Input</h1>
+      <h1>Profile</h1>
     </div>
   );
 }
 
-export default Input;
+export default Profile;
