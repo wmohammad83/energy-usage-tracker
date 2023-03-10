@@ -5,19 +5,19 @@ import Login from "./pages/Login";
 import PasswordReset from "./pages/PasswordReset";
 import Register from "./pages/Register";
 import Profile from "./pages/Profile";
-import Navbar from "./components/Navbar"
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <>
-      {/* <Navbar /> */}
       <Router>
+        <Navbar />
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/register" element={<Register />} />
           <Route path="/forgot-password" element={<PasswordReset />} />
           <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/input" element={<Input />} />
+          <Route path="/readings" element={<Input />} />
           <Route path="/profile" element={<Profile />} />
         </Routes>
       </Router>
